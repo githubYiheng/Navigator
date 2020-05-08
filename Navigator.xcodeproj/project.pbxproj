@@ -20,6 +20,8 @@
 		DB7B77512465785700946012 /* UIViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B77472465785700946012 /* UIViewControllerType.swift */; };
 		DB7B77522465785700946012 /* NavigatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B77482465785700946012 /* NavigatorDelegate.swift */; };
 		DB7B77532465785700946012 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B77492465785700946012 /* Navigator.swift */; };
+		DB7B775924658D7400946012 /* Navigator.swift in Headers */ = {isa = PBXBuildFile; fileRef = DB7B77492465785700946012 /* Navigator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7B775C24658D7A00946012 /* NavigatorProtocol.swift in Headers */ = {isa = PBXBuildFile; fileRef = DB7B77462465785700946012 /* NavigatorProtocol.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7B77352465781200946012 /* Navigator.h in Headers */,
+				DB7B775924658D7400946012 /* Navigator.swift in Headers */,
+				DB7B775C24658D7A00946012 /* NavigatorProtocol.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -403,6 +407,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Navigator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -426,6 +431,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Navigator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
